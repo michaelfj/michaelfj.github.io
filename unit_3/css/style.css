@@ -1,8 +1,11 @@
 body {
 	font-family: Georgia;
-	margin-left: 30px;
-	margin-right: 30px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
 }
+
 title {
 	text-align: center;
 	font-size: 24px;
@@ -13,7 +16,7 @@ title {
 }
 h1 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 	font-style: italic;
 	color: #696969;
@@ -22,28 +25,42 @@ h2 {
 	text-align: center;
 	margin-left: 30px;
 	margin-right: 30px;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #808080;
+}
+h3 {
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #808080;
 }
 p {
 	text-align: center;
 	color: #008080;
-	margin-left: 30px;
-	margin-right: 30px;
-	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14px;
 	font-weight: 200;
 }
 #slogan {
 	text-align: center;
 	text-decoration: underline;
-	color: #FF0000;
-	font-size: 20px;
+		color: #FF0000;
+	font-size: 24px;
 	font-family: "Georgia Italic";
-	font-weight: 400;
-	font-style: capitalize;
+	font-weight: 600;
+	font-style: capitalize, italic;
 }
-
+ul li {
+	text-align: left;
+	color: #008080;
+	margin-left: 60px;
+	font-size: 14px;
+	font-weight: 200;	
+}
 
 
 
