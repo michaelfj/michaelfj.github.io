@@ -9,28 +9,19 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
-
-title {
-	text-align: center;
-	font-size: 24px;
-	font-weight: 800;
-	color: #2F4F4F;
-	text-transform: ;
-	text-decoration: underline;
-}
 h1 {
 	text-align: center;
+	text-transform: capitalize;
 	font-family: 'Lusitana', sans-serif;
-	font-size: 45px;
-	font-weight: 600;
-	font-style: capitalize, normal;
+	font-size: 3em;
+	font-weight: 700;
 	color: #696969;
 }
 h2 {
 	text-align: center;
 	margin-left: 30px;
 	margin-right: 30px;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 400;
 	font-style: italic;
 	color: #808080;
@@ -39,7 +30,7 @@ h3 {
 	text-align: center;
 	margin-left: 40px;
 	margin-right: 30px;
-	font-size: 20px;
+	font-size: 1.5em;
 	font-weight: 400;
 	color: #FF0000;
 }
@@ -50,7 +41,8 @@ p {
 	margin-right: 20px;
 	font-family: 'Lusitana', serif;
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 400;
+	line-height: 1.5em;
 }
 #slogan {
 	text-align: center;
@@ -69,6 +61,8 @@ ul li {
 	font-weight: 200;	
 }
 a {
-	color: #FF0000;
+	color: #FFA500;
+	text-align: center;
 	text-decoration: none;
+	font-weight: 400;
 }
