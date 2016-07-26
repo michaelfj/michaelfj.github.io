@@ -1,0 +1,68 @@
+head {
+	text-align: center;
+}
+
+body {
+	font-family: 'Lusitana', 'Georgia', serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Lusitana', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: #FF0000;
+}
+h2 {
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 2em;
+	font-weight: 700;
+	font-style: italic;
+	color: #808080;
+}
+h3 {
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 30px;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FF0000;
+}
+p {
+	text-align: center;
+	color: #000;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Lusitana', 'Georgia', serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+#slogan {
+	text-align: center;
+	text-decoration: none;
+	color: #FF0000;
+	font-size: 60px;
+	font-family: "Lusitana", sans-serif;
+	font-weight: 600;
+	font-style: capitalize, italic;
+}
+ul li {
+	text-align: left;
+	color: #000;
+	margin-left: 60px;
+	font-size: 14px;
+	font-weight: 200;	
+}
+a {
+	color: #FF0000;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+}
