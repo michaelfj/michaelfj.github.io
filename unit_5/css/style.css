@@ -1,16 +1,26 @@
 header {
 	text-align: center;
-	background-color: ;
+	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
 }
-
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
 body {
 	font-family: 'Lusitana', 'Georgia', serif;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px; 
+	max-width: 800px;
 }
 h1 {
 	text-align: center;
@@ -47,6 +57,16 @@ p {
 	font-weight: 400;
 	line-height: 1.5em;
 }
+div/section {
+	background-color: #FFE2B3;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
 #slogan {
 	text-align: center;
 	text-decoration: none;
@@ -71,7 +91,7 @@ a {
 	color: #FF0000;
 	text-align: center;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 700;
 }
 #one {
 	background-color: ;
@@ -82,24 +102,47 @@ a {
 	background-color: ;
 	border: 1px black solid;
 	padding: 20px;
-}#three {
+}
+#three {
 	background-color: ;
 	border: 1px black solid;
 	padding: 20px;
-}#four {
+}
+#four {
 	background-color: ;
 	border: 1px black solid;
 	padding: 20px;
-}#five {
+}
+#five {
 	background-color: ;
 	border: 1px black solid;
 	padding: 20px;
-}#six {
+}
+#six {
 	background-color: ;
 	border: 1px black solid;
 	padding: 20px;
-}#seven {
+}
+#seven {
 	background-color: ;
+	border: 1px black solid;
+	padding: 20px;
+}
+.intro {
+
+}
+.square {
+
+}
+.description {
+
+}
+.picture1 {
+}
+}
+footer {
+	text-align: center;
+	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
 }
