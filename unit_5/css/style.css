@@ -1,32 +1,44 @@
 header {
 	text-align: center;
-	background-color: #FFED74;
+	background-color: #000080;
 	border: 1px black solid;
 	padding: 20px;
 }
 nav {
-	background-color: #E8C66A;
+	font-family: Tahoma, sans-serif;
+	font-variant: small-caps;
+	font-size: 1.7em;
+	font-weight: 400;
+	margin: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	background-color: #2F4F4F;
 	border: 1px black solid;
-	padding: 20px;
+	padding: .8em 1em;
 }
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
+	max-width: 600px;
 }
 body {
-	font-family: 'Lusitana', 'Georgia', serif;
+	font-family: 'Lusitana', Georgia, serif;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px; 
 	max-width: 800px;
+	background-color: #DCDCDC;
 }
 h1 {
 	text-align: center;
-	text-transform: capitalize;
-	font-family: 'Lusitana', sans-serif;
-	font-size: 3em;
+	text-transform: capitalize;;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: Georgia;
+	font-size: 2.5em;
+	font-style: italic;
 	font-weight: 700;
 	color: #FF0000;
 }
@@ -34,17 +46,18 @@ h2 {
 	text-align: center;
 	margin-left: 30px;
 	margin-right: 30px;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 700;
 	font-style: italic;
 	color: #808080;
 }
 h3 {
 	text-align: center;
-	margin-left: 40px;
+	margin-left: 30px;
 	margin-right: 30px;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-weight: 400;
+	font-style: italic;
 	color: #FF0000;
 }
 p {
@@ -52,7 +65,7 @@ p {
 	color: #000;
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: 'Lusitana', 'Georgia', serif;
+	font-family: 'Lusitana', Georgia, serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -69,12 +82,12 @@ article {
 }
 #slogan {
 	text-align: center;
-	text-decoration: none;
+	text-transform: capitalize;
 	color: #FF0000;
 	font-size: 60px;
 	font-family: "Lusitana", sans-serif;
 	font-weight: 600;
-	font-style: capitalize, italic;
+	font-style: italic;
 }
 ul li {
 	text-align: left;
@@ -86,6 +99,8 @@ ul li {
 img {
 	display: block;
 	margin: 0 auto;
+	max-width: 600px;
+	overflow: hidden;
 }
 a {
 	color: #FF0000;
@@ -94,7 +109,8 @@ a {
 	font-weight: 700;
 }
 #one {
-	background-color: ;
+	background-image:;
+	background-size: relative;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -137,7 +153,26 @@ a {
 .description {
 
 }
+.wrapper {
+	float: center;
+	width: 100%;
+	display: block;
+	position: relative;
+}
 .picture1 {
+	float: center;
+	width: 90%;
+	display: block;
+	position: relative;	
+}
+.picture2 {
+}
+.picture3 {
+}
+.picture4 {
+	float: left;
+}
+.picture5 {
 }
 }
 footer {
