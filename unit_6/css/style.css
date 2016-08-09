@@ -1,8 +1,18 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 header {
 	text-align: center;
 	border: 12px grey solid;
 	padding: 30px;
-	width: 95%;
+	width: 100%;
 	box-shadow: right;
 	background-size: relative;
 	background-color: #000080;
@@ -15,7 +25,7 @@ nav {
 	font-color: #DCDCDC;
 	font-weight: 200;
 	margin: 0px;
-	width: 95%;
+	width: 100%;
 	text-shadow: rgba(102, 102, 153,.4);
 	text-transform: none;
 	text-align: center;
@@ -46,7 +56,6 @@ aside {
 }
 body {
 	font-family: 'Lusitana', Georgia, serif;
-	margin: 0px;
 	width: 100%;
 	background-color: #A9A9A9;
 }
@@ -109,7 +118,8 @@ div/section {
 }
 article {
 	background-color: #E6E6FA;
-	border: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
 	padding: .3em .3em;
 	margin: .2em .2em;
 }
@@ -165,30 +175,33 @@ img {
 	float: left;
 	background-color: #000080;
 	background-size: relative;
-	border: 4px grey solid;
-	width: 98%;
+	border-left: 4px grey solid;
+	border-right: 4px grey solid;
+	width: 100%;
 	padding: 5px;
 }
 #two {
 	float: right;
 	background-color: #000080;
 	background-size: relative;
-	border: 4px grey solid;
-	width: 98%;
+	border-left: 4px grey solid;
+	border-right: 4px grey solid;
+	width: 100%;
 	padding: 5px;
 }
 #three {
 	float: left;
 	background-color: ;
-	border: 1px black solid;
-	width: 98%
+	border-left: 4px grey solid;
+	border-right: 4px grey solid;
+	width: 100%
 	padding: 5px;
 }
 #four {
 	float: right;
 	background-color: ;
 	border: 1px black solid;
-	width: 98%;
+	width: 100%;
 	padding: 5px;
 }
 
@@ -198,20 +211,18 @@ img {
 	width: 100%;
 }
 #picture2 {
-	float: left;
 	padding: .3em .3em;
 
 }
 #picture3 {
-	float: left;
 	padding: .3em .3em;
 	
 }
 #picture4 {
-	float: left;
 	padding: .3em .3em;
 }
 .clearfix:after {
+	clear: both;
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -219,19 +230,15 @@ img {
 	height: 0;
 }
 #picture5 {
-	float: right;
 	padding: .3em .3em;
 }
 #picture6 {
-	float: right;
 	padding: .3em .3em;
 }
 #picture7 {
-	float: right;
 	padding: .3em .3em;
 }
 #picture7b {
-	float: right;
 	padding: .3em .3em;
 }
 #picture8div {
