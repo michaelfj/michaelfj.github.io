@@ -99,7 +99,7 @@ h3 {
 }
 p {
 	font-family: 'Lusitana', Georgia, serif;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 400;
 	line-height: 1.5em;
 	text-align: justify;
@@ -110,12 +110,12 @@ p {
 	
 }
 
-/*div/section {
+div/section {
 	display: inline-block;
 	background-color: #E0FFFF;
 	border: 1px black solid;
 	padding: 0px;
-}*/
+}
 article {
 	background-color: #E6E6FA;
 	border-left: 1px black solid;
@@ -123,14 +123,14 @@ article {
 	padding: .3em .3em;
 	margin: .2em .2em;
 }
-/*.wrapper {
+#wrapper {
 	width: 100%;
 	background-color: #E6E6FA;
-}*/
+}
 
-/*#intro {
+#intro {
 	text-align: left;
-}*/
+}
 #slogan {
 	text-align: center;
 	text-transform: capitalize;
@@ -156,13 +156,13 @@ article {
 	float: right;
 	padding: .2em;
 }
-/*ul li {
+ul li {
 	text-align: left;
 	color: #000;
 	margin-left: 60px;
 	font-size: 14px;
 	font-weight: 200;	
-}*/
+}
 img {
 	display: block;
 	margin: 0 auto;
@@ -177,7 +177,7 @@ img {
 	border-left: 4px grey solid;
 	border-right: 4px grey solid;
 	width: 100%;
-	margin: 0px 5px 0px 0px;
+	padding: 5px;
 }
 #two {
 	float: right;
@@ -186,7 +186,7 @@ img {
 	border-left: 4px grey solid;
 	border-right: 4px grey solid;
 	width: 100%;
-	margin: 0px 0px 0px 5px;
+	padding: 5px;
 }
 #three {
 	float: left;
@@ -194,15 +194,14 @@ img {
 	border-left: 4px grey solid;
 	border-right: 4px grey solid;
 	width: 100%
-	margin: 0px 5px 0px 0px;
+	padding: 5px;
 }
 #four {
 	float: right;
 	background-color: ;
-	border-left: 4px grey solid;
-	border-right: 4px grey solid;
+	border: 1px black solid;
 	width: 100%;
-	margin: 0px 0px 0px 5px;
+	padding: 5px;
 }
 
 #picture1 {
@@ -210,7 +209,15 @@ img {
 	padding: 20px;
 	width: 100%;
 }
-.pictures1 {
+#picture2 {
+	padding: .3em .3em;
+
+}
+#picture3 {
+	padding: .3em .3em;
+	
+}
+#picture4 {
 	padding: .3em .3em;
 }
 .clearfix:after {
@@ -221,8 +228,17 @@ img {
 	content: "";
 	height: 0;
 }
-.pictures2 {
-		padding: .3em .3em;
+#picture5 {
+	padding: .3em .3em;
+}
+#picture6 {
+	padding: .3em .3em;
+}
+#picture7 {
+	padding: .3em .3em;
+}
+#picture7b {
+	padding: .3em .3em;
 }
 #picture8div {
 	float: none;
@@ -232,13 +248,34 @@ img {
 	float: none;
 	padding: .3em .3em;
 }
-.pictures3 {
+#picture9 {
 	float: left;
 	padding: .3em .3em;
 }
-.pictures4 {
+#picture10 {
+	float: left;
+	padding: .3em .3em;
+}
+#picture11 {
+	float: left;
+	padding: .3em .3em;
+}
+#picture12 {
 	float: right;
 	padding: .3em .3em;
+}
+#picture13 {
+	float: right;
+	padding: .3em .3em;
+}
+#picture14 {
+	float: right;
+	padding: .3em .3em;
+}
+#picture15 {
+	float: right;
+	padding: .3em .3em;
+
 }
 #picture17 {
 	float: none;
