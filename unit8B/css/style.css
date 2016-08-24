@@ -9,7 +9,9 @@
 }
 
 body {
-	background-color: #F5DEB3;
+	background-color: #FFF8DC;
+	/*background-image: url("../images/SPx6_Satinx2.png");
+	background-repeat: repeat;*/
 }
 header {
 	background-color: #F5DEB3;
@@ -39,7 +41,7 @@ h2 {
 } 
 h3 {
 	font-family: Helvetica, sans-serif;
-	font-size: 1.5m;
+	font-size: 1.5em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -88,7 +90,7 @@ a:hover {
 }
 div {
 	font-size: 1em;
-	padding: 10px;
+	padding: 5px;
 	display: inline-block;
 }
 #hcolumn1 {
@@ -98,7 +100,7 @@ div {
 	width: 25%;
 	min-height: auto;
 	margin: 0;
-	}
+}
 #hcolumn2 {
 	float: left;
 	display: block;
@@ -106,6 +108,7 @@ div {
 	width: 50%;
 	min-height: auto;
 	margin: 0;
+	#border: 3px yellow solid;
 	text-align: center;	
 }
 #hcolumn3 {
@@ -117,11 +120,13 @@ div {
 	min-height: auto;
 	margin: 0;
 }
+/*COLUMNS*/
 .column {
 	float: left;
+	display: block;
 	color: #663399;
-	width: 27%;
-	min-height: auto:
+	width: 31%;
+	min-height: auto;
 	margin: 10px;
 }
 .column h2 {
@@ -136,93 +141,49 @@ div {
 #column3 {
 	background-color: #FFA07A;
 }
+#column4 {
+	display: none;
+}
 .article {
-	width: 95%;
+	width: 98%;
 	text-align: center;
 	padding: 0px;
 	margin: 5px;
 }
 article a {
-	font-family: georgia, serif;
+	font-family: helvetica, sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	font-style: italic;
+	font-style: normal;
 	text-align: right; 
+	text-decoration: none; 
 }
 .columnimg {
-	width: 95%;
+	width: 96%;
 	margin: 5px;
 }
-#column4 {
-	float: left;
-	display: inline-block;
-	background-color: #F5DEB3;
-	width: 19%;
-	padding: 10px
-	margin: 10px;
-}
-#column4 h2 {
-	background-image: url("../images/Satin_WideHR.gif");
-	font-size: 1.4em;
-	text-align: center;
-	color: red;
-	font-style: normal;
-	padding: 8px;
-	margin-top: 8px;
-}
-#asideAd1 {
-	display: block;
-	width: 98%;
-	margin: 0px;
-	#border: 2px yellow solid;
-}
-#asideAd2 {
-	display: none;
-}
-#column4div a {
-	text-decoration: none;
-	text-align: center;
-	font-family: helvetica, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	line-height: 2.2em;
-	color: blue;
-	background-color: #F5DEB3;
-	padding: 5px 20px 5px 20px;
-	margin: 5px 5px 5px 5px;
-}
-#column4div span {
-	display: none;
-	padding: 5px;
-	margin: 5px;
-}
-#column4div a:hover {
-	color: aqua;
-}
-#column4 p {
-	text-align: center;
-	color: red;
-	margin: 10px;
-}
+
 footer {
 	float: left;
 	background-image: url("../images/Satinx2.gif");
 	display: block;
 	width: 100%;
 	margin: 0px;
+	#border: 2px yellow solid;
 }
 #footer1 {
-	display: 32%;
+	display: 33%;
 	margin: 3px;
+	#border: 2px yellow solid;
 }
 #footer2 {
-	display: 32%;
+	display: 33%;
 	margin: 3px;
+	#border: 2px yellow solid;
 }
 #footer3 {
-	display: 35%;
-	margin: 0px;
+	display: 33%;
+	margin: 3px;
 }
 footer p {
 	text-align: center;
@@ -257,14 +218,12 @@ footer a:hover {
 #footerlogo {
 	margin: 10px;
 }
-div#footer3 {
-	padding: 0px;
-}
 #footerad1 {
-	width: auto;
+	width: 100%;
+	#border: 2px yellow solid;
 }
 
-@media only screen and (min-width: 640px) and (max-width: 1024px) {
+@media only screen and (min-width: 685px) and (max-width: 1024px) {
 nav { 
 	float: none;
 	width: auto;
@@ -282,51 +241,71 @@ nav a {
 }
 #column1, #column2 {
 	float: left;
-	width: 50%;
+	width: 47%;
 }
-#column3, #column4 {
+#column3 {
 	float: left;
-	width: 50%;
+	width: 47%;
 }
 #column4 {
-	font-size: 1.2em;
+	float: left;
+	display: inline-block;
+	background-color: #F5DEB3;
+	width: 47%;
+	padding: 10px
+	margin: 10px;
+	#border: 2px yellow solid;
 }
 #column4 h2 {
-	font-size: 1.2em;
+	background-image: url("../images/Satin_WideHR.gif");
+	font-size: 1.4em;
+	text-align: center;
 	color: red;
-	margin-top: 8px;
+	font-style: normal;
 	padding: 8px;
+	margin-top: 8px;
 }
-#column4 a {
+#column4div a {
+	text-decoration: none;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 2.2em;
+	color: blue;
 	background-color: #F5DEB3;
-	line-height: 2.5em;
-	margin: 30px 5px 30px 5px;
-	padding: 7px 10px 7px 10px;
+	padding: 5px 20px 5px 20px;
+	margin: 5px 5px 5px 5px;
 }
-#column4div {
-	width: 98%;
-	padding: 0px;
+#column4div a:hover {
+	color: aqua;
 }
-#column4 span {
-	display: inline;
-	padding: 5px;
+#column4 p {
+	text-align: center;
+	color: red;
+	margin: 10px;
+}
+#column4img {
+	display: block;
+	width: 96%;
 	margin: 5px;
+	position: center;
+	#border: 2px yellow solid;
 }
-#asidediv img {
-	display: none;
+
+#footer1, #footer2 {
+	float: none;
+	display: 50%;
+	margin: 3px;
 }
-#asideAd2 {
+#footer3 {
 	display: none;
-}
-#footerad1 {
-	display: none;
-}
-#footer1img3 {
-	display: none;
+	margin: 3px;
 }
 }
 
-@media only screen and (min-width: 220px) and (max-width: 640px) {
+@media only screen and (min-width: 230px) and (max-width: 685px) {
 #hcolumn1, #hcolumn3 {
 	display: none;
 }
@@ -336,37 +315,16 @@ nav a {
 }
 .column {
 	float: none;
-	width: auto;
-}
-#column4 {
 	display: block;
-	width: 100%;
-}
-#asidediv img {
-	display: none;
-}
-#asideAd2 {
-	display: none;
-}
-#column4 a {
-	background-color: #F5DEB3;
 	width: 98%;
-	line-height: 2.5em;
-	margin: 30px 5px 30px 5px;
-	padding: 7px 10px 7px 10px;
 }
-#column4 span {
-	display: inline;
-	padding: 5px;
-	margin: 5px;
+#footer1, #footer2 {
+	float: none;
+	display: auto;
+	margin: 3px;
 }
-#footer1img3 {
+#footer2, #footer3 {
 	display: none;
-}
-#footer2 {
-	position: center;
-}
-#footerad1 {
-	display: none;
+	margin: 3px;
 }
 }

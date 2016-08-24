@@ -1,0 +1,101 @@
+#column4 {
+	float: left;
+	display: inline-block;
+	background-color: #FABC94;
+	width: 19%;
+	padding: 10px
+	margin: 10px;
+	#border: 2px yellow solid;
+}
+#column4 h2 {
+	background-image: url("../images/Satin_WideHR.gif");
+	font-size: 1.4em;
+	text-align: center;
+	color: red;
+	font-style: normal;
+	padding: 8px;
+	margin-top: 8px;
+}
+#asideAd1 {
+	display: block;
+	width: 98%;
+	margin: 0px;
+	#border: 2px yellow solid;
+}
+#asideAd2 {
+	display: none;
+}
+#column4div a {
+	text-decoration: none;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 2.2em;
+	color: black;
+	background-color: #F5DEB3;
+	padding: 5px 20px 5px 20px;
+	margin: 5px 5px 5px 5px;
+}
+#column4div a:hover {
+	color: aqua;
+}
+#column4 p {
+	text-align: center;
+	color: red;
+	margin: 10px;
+}
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+/*#column3,*/ #column4 {
+	float: left;
+	width: 50%;
+}
+#column4 {
+	font-size: 1.2em;
+}
+#column4 h2 {
+	font-size: 1.2em;
+	color: red;
+	margin-top: 7px;
+	padding: 5px;
+}
+#column4 a {
+	background-image: url("../images/Satin_WideHR.gif");
+	width: 50%;
+	line-height: 2.5em;
+	margin: 30px 5px 30px 5px;
+	padding: 7px 10px 7px 10px;
+}
+#asidediv {
+	width: 50%;
+	padding: 0px;
+	#border: 2px yellow solid;
+}
+#asidediv img {
+	display: block;
+	margin: 10px 0px 10px 0px;
+	border: 2px yellow solid;
+}
+#asideAd2 {
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 640px) {
+#asidediv img {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 372px) {
+#asideAd2 {
+	display: block;
+	width: auto;
+	margin: 20px 0px 0px 5px;
+	border: 2px yellow solid;	
+}
+}
+
