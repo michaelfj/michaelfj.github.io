@@ -265,10 +265,9 @@ footer p {
 	margin: 0px;
 	padding: 5px;
 }
-footer a {
+#footer1 a {
 	display: block;
 	float:  left;
-	/*background-image: url("../images/Yellow.dot80.2RingsX.gif");*/ 
 	background-size: 100% auto;
 	background-position: center center;
 	font-family: georgia, serif;
@@ -299,15 +298,23 @@ footer span {
 	top: 50%;
 	transform: translateY(-50%);
 }
-footer a:hover {
+#footer1 a:hover {
 	color: aqua;
 }
 #footerlogo {
 	margin: 10px;
 }
-#footerad1 {
-	width: 96%;
-	margin: 5px;
+#footer4 a {
+	display: block;
+	background-size: 100% auto;
+	background-position: center center;
+	color: yellow;
+	text-decoration: none;
+	padding-left: 10px;
+	margin: 5px 5px 5px 5px;
+}
+#footer4ad {
+	background-image: url("../images/LOGO.SPx6.Sports.Ht90px.gif");
 }
 
 @media screen and (min-width: 685px) and (max-width: 1024px) {
