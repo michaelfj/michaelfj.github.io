@@ -243,20 +243,17 @@ footer {
 	margin: 0px;
 }
 #footer1 {
-	width: 35%;
+	width: 38%;
 	margin: 2px;
 }
+
 #footer2 {
-	width: 10%;
+	width: 42%;
 	margin: 2px;
 }
 #footer3 {
-	width: 15%;
-	margin: 2px;
-}
-#footer4 {
-	width: 35%;
-	margin: 2px;
+	width: 18%;
+	margin: 0 auto;
 }
 footer p {
 	text-align: center;
@@ -298,23 +295,26 @@ footer span {
 	top: 50%;
 	transform: translateY(-50%);
 }
-#footer1 a:hover {
+#footer1, #footer2 a:hover {
 	color: aqua;
 }
 #footerlogo {
 	margin: 10px;
 }
-#footer4 a {
+#footer2 a {
 	display: block;
 	background-size: 100% auto;
 	background-position: center center;
 	color: yellow;
 	text-decoration: none;
 	padding-left: 10px;
-	margin: 5px 5px 5px 5px;
+	margin: 5px;
 }
-#footer4ad {
-	background-image: url("../images/LOGO.SPx6.Sports.Ht90px.gif");
+#footer2ad {
+	background-image: url("../images/LOGO.Sports.600x150.DkBlueBG.gif");
+	max-height: 90px;
+	margin: 5px;
+	padding: 20px;	
 }
 
 @media screen and (min-width: 685px) and (max-width: 1024px) {
@@ -407,14 +407,19 @@ nav a {
 	width: 100%;
 	margin: 0 auto;
 }
-#footer1, #footer2, #footer3 {
+#footer1, #footer2, #footer4 {
 	float: left;
-	width: auto;
-	margin: 3px;
+	margin: 0 auto;
 }
-#footer4 {
+#footer1 {
+	width: auto;
+}
+#footer3 {
 	display: none;
 	margin: 3px;
+}
+#footer1img1 {
+	display: none;
 }
 }
 
@@ -483,20 +488,22 @@ nav a {
 	width: 100%;
 	margin: 0 auto;
 }
-#asidediv img {
-	display: none;
-}
-#footer1, #footer2 {
-	float: none;
-	display: inline-block; 
-	width: auto;
+#footer1 {
+	display: inline-block;
+	float: none; 
+	width: 100%;
 	margin: 3px;
 }
-#footer3, #footer4 {
-	display: none;
+#footer2 {
+	float: none; 
+	width: 100%;
 	margin: 3px;
 }
-#footer1img1 {
+#footer2ad {
+	min-height: 100px;
+	margin: 0 auto;
+}
+#footer3 {
 	display: none;
 }
 }

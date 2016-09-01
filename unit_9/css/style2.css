@@ -262,14 +262,8 @@ img {
 	float: none;
 	border: 12px grey solid;
 }
-#picture17 {
-	float: none;
-	margin-bottom: .9em;
-	margin-top: .2em; 
-	box-shadow: 2px 5px 5px #2A2A55;
-}
 footer {
-	width: 98%;
+	width: 100%;
 	background-color: #000080;
 	border: 1px black solid;
 	margin-bottom: 20px;
@@ -281,21 +275,37 @@ footer p {
 	color: #FF0000;
 	text-align: center;
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: normal;
 	padding: 5px;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
+#footer2 a {
+	font-family: Georgia, serif;
+	font-size: .7em;
+	font-weight: normal;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	text-decoration: none; 
+	background-image: url("../images2/Blank.Register.280x72.gif");
+	border-left: 2px darkgrey solid;
+	border-right: 2px black solid;
+	border-bottom: 2px black solid;
+	border-top: 1px ivory solid;
+	padding: 18px 25px;
+	margin-bottom: 10px;
+}
 #footer1 {
 	float: left;
 	display: block;
-	width: 24%;
-	margin-left: 8px;
+	width: 20%;
+	
 }
 #footer2 {
 	float: left;
 	display: block;
-	width: 53%;	
+	width: 59%;	
 	border-left: 1px black solid;
 	border-right: 1px black solid;
 	border-bottom: 1px black solid;
@@ -305,8 +315,7 @@ footer p {
 #footer3 {
 	float: left;
 	display: block;
-	width: 21%;
-	margin-left: 2px;
+	width: 20%;
 }
 @media screen and (min-width: 640px) and (max-width: 1024px) {
 
@@ -357,11 +366,17 @@ h3 {
 	float: none;
 	width: 100%;
 }
-#picture17 {
-	width: 80%; 
-	margin-bottom: .9em;
-	margin-top: .2em; 
-	box-shadow: 2px 5px 5px #20203D;
+#footer1 {
+	width: 19%;
+}
+#footer2 {
+	width: 60%;	
+}
+#footer3 {
+	width: 19%;
+}
+#footer2 a {
+	width: 100%;
 }
 }
 
@@ -428,12 +443,5 @@ h3 {
 #footer2 {
 	float: none;
 	width: 100%;	
-}
-#picture17 {
-	float: none;
-	margin: 0 auto;
-	width: 80%; 
-	margin-bottom: .9em;
-	margin-top: .2em; 
 }
 }
