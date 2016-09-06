@@ -16,7 +16,9 @@ header {
 	background-color: #000080;
 }
 a {
-	color: #F8F8FF;
+	color: red;
+	font-style: bold;
+	text-decoration: none; 
 }
 a:hover {
 	background-color: #000080; 
@@ -76,19 +78,25 @@ p {
 #slogan {
 	text-align: center;
 	color: #FF0000;
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.5em;
 	font-family: "Lusitana", Georgia, sans-serif;
-	font-weight: 2em;
+	font-weight: bold;
 	font-style: italic;
 }
-#picture1a {
+#pictureHa {
 	display: block;
 	width: 100%;
+	box-shadow: 2px 5px 5px #20203D;
 }
-#picture1b {
+#pictureHb {
 	display: block;
 	width: 100%;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-top: 0px;
+	box-shadow: 0px;
 }
 .clearfix:after {
 	clear: both;
@@ -108,6 +116,12 @@ p {
 	border-right: 4px grey solid;
 	margin: 0px 5px 0px 0px;
 }
+.pictures1a {
+	width: auto;
+}
+#pictures1a2, #pictures1a3 {
+	display: none;
+}
 #section1b {
 	display: block;
 	float: left;
@@ -122,12 +136,6 @@ p {
 	border-left: 4px grey solid;
 	border-right: 4px grey solid;
 	margin: 0px 5px 0px 0px;
-}
-.picture1 {
-	box-shadow: 2px 5px 5px #20203D;
-}
-.pictures1a {
-	width: auto;
 }
 article {
 	background-color: #E6E6FA;
@@ -329,17 +337,20 @@ h3 {
 	font-size: 1.3em;
 }
 #slogan {
-	font-size: 1.8em;
+	font-size: 2.2em;
 }
 #section1a {
 	display: block;
 	float: left;
-	width: 33%;
+	width: 20%;
+}
+#pictures1a2, #pictures1a3 {
+	display: none;
 }
 #section1b {
 	display: block;
 	float: left;
-	width: 65%;
+	width: 78%;
 }
 #section1c {
 	display: none;
@@ -380,9 +391,10 @@ h3 {
 }
 }
 
-@media screen and (min-width: 240px) and (max-width: 640px) {
+@media only screen and (min-width: 240px) and (max-width: 640px) {
+
 h1 {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 h2 {
 	font-size: 1.2em;
@@ -393,13 +405,24 @@ h3 {
 #slogan {
 	font-size: 1.7em;
 }
-#section1a, #section1c {
+/*#section1a {
+	display: block;
+	float: right;
+	width: 20%;
+}
+.pictures1b {
+	width: auto;
+}*/
+#pictures1a1 {
 	display: none;
 }
 #section1b {
 	display: block;
-	float: left;
+	float: right;
 	width: 100%;
+}
+#section1c {
+	display: none;
 }
 #section2a, #section2c {
 	display: none;
